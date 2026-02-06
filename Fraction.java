@@ -35,6 +35,46 @@ public class Fraction {
     private long numerator; //Stores the numerator
     private long denominator; //Stores the denominator
 
+    /* *************************** getNumerator ****************************
+    * Description: Gwtter for numerator
+    *
+    * Paarmeter: none
+    * *
+    * Pre: can't be a string
+    *
+    * Post: no changes
+    *
+    * Returns: numerator
+    *
+    * Called by: Nothing
+    *
+    * Calls: none
+    *********************************************************************/
+
+    public long getNumerator() {
+        return numerator;
+    }
+
+      /* *************************** getDenominator *************************
+    * Description: Gwtter for numerator
+    *
+    * Paarmeter: none
+    * *
+    * Pre: can't be a string
+    *
+    * Post: no changes
+    *
+    * Returns: numerator
+    *
+    * Called by: Nothing
+    *
+    * Calls: none
+    *********************************************************************/
+
+    public long getDenominator(){
+        return denominator;
+    }
+
     /**
      * *************************** Fraction ******************************
      * Description: Constructs a Fraction given two inputs, numerator and
